@@ -13,6 +13,33 @@ export default {
   name: 'App',
   components: {
     certificate
+  },
+  metaInfo() {
+    return {
+      title: 'Your Page Title',
+      meta: [
+        {
+          property: 'og:title',
+          content: 'Your Page Title'
+        },
+        {
+          property: 'og:description',
+          content: 'Description of your webpage'
+        },
+        {
+          property: 'og:image',
+          content: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN2vVVG2BOns1aicnn0wKmKn3aYtHCcBiysWlpz_c&s'
+        },
+        {
+          property: 'og:url',
+          content: 'https://joyful-donut-505014.netlify.app/'
+        },
+        {
+          property: 'og:type',
+          content: 'website'
+        }
+      ]
+    };
   }
 }
 </script>

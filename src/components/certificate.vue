@@ -1,10 +1,6 @@
 <template>
   <div class="container" align="center"> 
-     <vue-head>
-      <meta property="og:title" content="My Certificate" />
-      <meta property="og:description" content="Hack the DID from Hypersign" />
-      <meta property="og:image" content="https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg" />      
-    </vue-head>      
+    
     <table class="cert">
       
   <tr>
@@ -35,45 +31,13 @@
 </template>
 
 <script>
-import VueHead from 'vue-head';
+
 export default {
   name: "CertifiCate",
-  components:{VueHead},
+  components:{},
   data(){
     return{
-      head: {
-    title: {
-      inner: 'Your Page Title'
-    },
-    meta: [
-      {
-        name: 'description',
-        content: 'Description of your webpage'
-      },
-      {
-        property: 'og:title',
-        content: 'Your Page Title'
-      },
-      {
-        property: 'og:description',
-        content: 'Description of your webpage'
-      },
-      {
-        property: 'og:image',
-        content: 'https://media.licdn.com/dms/image/C4D03AQGM3Z9dL6ZkoQ/profile-displayphoto-shrink_800_800/0/1655765136300?e=2147483647&v=beta&t=LuvfT4R4SwW7XmMEXo2e9SIrQ5uKlMs_2saK2Gi_iOI'
-      },
-      {
-        property: 'og:url',
-        content: 'URL of your webpage'
-      },
-      {
-        property: 'og:type',
-        content: 'website'
-      }
-    ]
-  },
-    }
-  }
+    }}
 };
 </script>
 

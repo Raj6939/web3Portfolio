@@ -3,11 +3,11 @@ import App from './App.vue'
 import {BootstrapVue, IconsPlugin,} from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
-import VueHead from 'vue-head';
+import VueMeta  from 'vue-meta';
 Vue.config.productionTip = false
 Vue.use(BootstrapVue);
-Vue.use(VueHead)
 Vue.use(IconsPlugin);
+Vue.use(VueMeta)
 new Vue({
   render: h => h(App),
 }).$mount('#app')
