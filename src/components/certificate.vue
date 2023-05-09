@@ -35,9 +35,22 @@
 export default {
   name: "CertifiCate",
   components:{},
-  data(){
-    return{
-    }}
+  metaInfo: {
+    meta: [
+      { property: 'og:title', content: 'HackDID' },
+      { property: 'og:description', content: 'HackDID Certification' },
+      { property: 'og:image', content: 'https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg' },
+      { property: 'og:url', content: 'https://hypersign.id/' },
+      { property: 'og:type', content: 'website' },
+    ],
+    // Twitter Card meta tags
+    link: [
+      { rel: 'twitter:card', content: 'summary_large_image' },
+      { rel: 'twitter:title', content: 'HackDID' },
+      { rel: 'twitter:description', content: 'Certificate of Participation' },
+      { rel: 'twitter:image', content: 'https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg' },
+    ],
+  },
 };
 </script>
 
