@@ -25,32 +25,53 @@
       <h3>Learning Lead</h3>
       <h3>Department Name</h3>
     </td>
+    <!-- <ShareNetwork
+    network="twitter"
+    url="https://hypersign.id"
+    title="HackDID Certification."
+    description="Hey everyone, recently I have attended HackDID organized by hypersing.id. I won the hackathon first prize and was fun doing building on top of hypersign. Hey everyone.Hey everyoneHey everyone Say hi to Vite! A brand new, extremely fast development setup for Vue."
+    quote="The hot reload is so fast it\'s near instant. - Evan You"
+    hashtags="hypersignchain,hackDID,hypersignHackathon,DID,SSI"
+    image="https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg"
+  >
+    Share on Facebook
+</ShareNetwork> -->
+
+ <button @click="generateCert">Share</button>
+
   </tr>
 </table>      
   </div>
 </template>
 
 <script>
+import html2canvas from 'html2canvas';
 
+// import ShareNetwork from "vue-social-sharing"
 export default {
   name: "CertifiCate",
-  components:{},  
-  metaInfo: {
-    meta: [
-      { property: 'og:title', content: 'HackDID' },
-      { property: 'og:description', content: 'HackDID Certification' },
-      { property: 'og:image', content: 'https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg' },
-      { property: 'og:url', content: 'https://hypersign.id/' },
-      { property: 'og:type', content: 'website' },
-    ],
-    // Twitter Card meta tags
-    link: [
-      { rel: 'twitter:card', content: 'summary_large_image' },
-      { rel: 'twitter:title', content: 'HackDID' },
-      { rel: 'twitter:description', content: 'Certificate of Participation' },
-      { rel: 'twitter:image', content: 'https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg' },
-    ],
+  components:{},
+  data(){
+    return{
+      certificatePageUrl:'https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg'
+    }
   },
+  methods:{
+    generateCert() {      
+       const element = document.querySelector('.container');
+
+      html2canvas(element).then(canvas => {
+        // Convert canvas to PNG image data
+        const imageData = canvas.toDataURL('image/png');
+
+        // Create a temporary link element to download the PNG certificate
+        const link = document.createElement('a');
+        link.href = imageData;
+        link.download = 'certificate.png';
+        link.click();
+      });
+    }
+  }
 };
 </script>
 

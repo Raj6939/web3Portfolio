@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="d-flex">
-    <certificate msg="Welcome to Your Vue.js App"/>
+    <certificate/>
     </div>    
   </div>
 </template>
