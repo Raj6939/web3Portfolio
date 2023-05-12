@@ -51,6 +51,26 @@ import html2canvas from 'html2canvas';
 export default {
   name: "CertifiCate",
   components:{},
+  metaInfo: {
+      title: 'My Awesome Webapp',
+      // override the parent template and just use the above title only
+      titleTemplate: null,
+      meta: [
+    {
+      property: 'og:title',
+      content: 'My Awesome Webapp - Open Graph Title',
+    },
+    {
+      property: 'og:description',
+      content: 'This is the description for the Open Graph meta tag.',
+    },
+    {
+      property: 'og:image',
+      content: 'https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg',
+    },
+    // Add more OG meta tags as needed
+  ],
+    },
   data(){
     return{
       certificatePageUrl:'https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg'
