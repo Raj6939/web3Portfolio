@@ -3,20 +3,15 @@
     <helmet-provider>
         <div>
             <helmet>
-                <meta charSet="utf-8" />
-                <title>My new Title</title>
-                <link rel="canonical" href="https://new-branch--og-check.netlify.app/#/" />                
-                <meta property="og:description" content="Own Your Personal Data &amp; Digital Identity">              
-                <meta property="og:url" content="https://hypersign.id">
-                <meta property="og:title" content="Hypersign">                
-                <meta property="og:type" content="website">
-                <meta property="og:image" content="https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg">
-                <link rel="canonical" href="https://hypersign.id">
-                <meta name="format-detection" content="telephone=no">
-                <meta http-equiv="x-dns-prefetch-control" content="on">
-                <link rel="dns-prefetch" href="https://ws.tildacdn.com">
-                <link rel="dns-prefetch" href="https://static.tildacdn.com">
-                <link rel="shortcut icon" href="https://static.tildacdn.com/tild6464-6463-4136-b535-353636396131/Frame-24-_1_.ico" type="image/x-icon">
+                <meta charSet="utf-8" />              
+                <title>Social Share Preview – Check social media link previews</title>
+                <meta name="description" content="Check how the link previews of a website look like on Facebook, Twitter, LinkedIn &amp; Pinterest. Use our ► debugger or install our ► free browser plugin!">
+                <meta property="og:title" content="Social Share Preview – Check social media link previews">
+                <meta property="og:description" content="Check how the link previews of a website look like on Facebook, Twitter, LinkedIn &amp; Pinterest. Use our ► debugger or ► free browser extensions!">
+                <meta property="og:image" content="https://socialsharepreview.com/images/social-share-preview-og.jpg">
+                <meta name="twitter:card" content="summary_large_image">
+                <meta name="twitter:title" content="Social Share Preview – Check social media link previews">
+                <meta name="twitter:description" content="Check how the link previews of a website look like on Facebook, Twitter, LinkedIn &amp; Pinterest. Use our ► debugger or install our ► free browser plugin!">                
             </helmet>
         </div>
     </helmet-provider>
