@@ -4,7 +4,7 @@
         <div>
             <helmet>
                 <meta charSet="utf-8" />                              
-                <meta property="og:title" content="Social Share Preview – Check social media link previews">                
+                <meta name="title" property="og:title" content="My OG Siter">
                 <meta name="description" property="og:description" content="This is og description">                
                 <meta name="image" property="og:image" content="https://socialsharepreview.com/images/social-share-preview-og.jpg">
                 <meta name="twitter:card" content="summary_large_image">
