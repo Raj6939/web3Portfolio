@@ -12,6 +12,7 @@
                 <meta name="twitter:card" content="summary_large_image">
                 <meta name="twitter:title" content="Social Share Preview – Check social media link previews">
                 <meta name="twitter:description" content="Check how the link previews of a website look like on Facebook, Twitter, LinkedIn &amp; Pinterest. Use our ► debugger or install our ► free browser plugin!">                
+                <meta name="twitter:image" content="https://socialsharepreview.com/images/social-share-preview-og.jpg">
             </helmet>
         </div>
     </helmet-provider>
