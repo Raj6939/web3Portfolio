@@ -4,12 +4,12 @@
         <div>
             <helmet>
                 <meta charSet="utf-8" />
-                <title>OG Meta Tag</title>
-                <meta name="description" property="og:description" content="This is og description">                
-                <meta name="image" property="og:image" content="https://new-branch--og-check.netlify.app/img/hypersign.4a122c25.jpg">
+                <title>OG Meta Tag one</title>
+                <meta name="description" property="og:description" content="This is og description">                                
+                <meta property='og:image' content='https://www.capitalclinicphysio.com.au/wp-content/uploads/2017/06/Capital-Clinic_Golf_-1200-x-700-px.png'/>
                 <meta name="twitter:card" content="summary_large_image">                
                 <meta name="twitter:description" content="Check how the link previews of a website look like on Facebook, Twitter, LinkedIn &amp; Pinterest. Use our ► debugger or install our ► free browser plugin!">                
-                <meta name="twitter:image" content="https://new-branch--og-check.netlify.app/img/hypersign.4a122c25.jpg">
+                <meta name="twitter:image" content="https://www.capitalclinicphysio.com.au/wp-content/uploads/2017/06/Capital-Clinic_Golf_-1200-x-700-px.png">
             </helmet>
         </div>
     </helmet-provider>
