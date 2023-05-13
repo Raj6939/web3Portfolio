@@ -6,7 +6,8 @@
                 <meta charSet="utf-8" />
                 <title>My Title</title>
                 <link rel="canonical" href="https://new-branch--og-check.netlify.app/#/" />
-                <meta name="description" content="Own Your Personal Data &amp; Digital Identity">
+                <meta name="description" property="og:description" content="OG Page Description">                
+                <meta name="image" property="og:image" content="https://ik.imagekit.io/ikmedia/backlit.jpg"/>
                 <meta property="og:url" content="https://new-branch--og-check.netlify.app/#/">
                 <meta property="og:title" content="My OG">
                 <meta property="og:description" content="Own Your Personal Data &amp; Digital Identity">
