@@ -20,7 +20,7 @@
       
   <tr>
     <td align="center" class="crt_logo">
-      <img src="https://pbs.twimg.com/profile_images/1589515775865675776/x3aQ_9e3_400x400.jpg" alt="logo">
+      <img src="../assets/hypersign.jpg" alt="logo">
 
     </td>
   </tr>
@@ -52,7 +52,7 @@
     Share on Facebook
 </ShareNetwork> -->
 
- <button @click="generateCert">Share</button>
+ <!-- <button @click="generateCert">Share</button> -->
 
   </tr>
 </table>      
@@ -61,6 +61,7 @@
 
 <script>
 import html2canvas from 'html2canvas';
+
 // import ShareNetwork from "vue-social-sharing"
 import { Helmet,HelmetProvider } from "@jnields/vue-helmet";
 export default {
