@@ -4,7 +4,7 @@
         <div>
             <helmet>
                 <meta charSet="utf-8" />
-                <title>My Title</title>
+                <title>My new Title</title>
                 <link rel="canonical" href="https://new-branch--og-check.netlify.app/#/" />
                 <meta name="description" property="og:description" content="OG Page Description">                
                 <meta name="image" property="og:image" content="https://ik.imagekit.io/ikmedia/backlit.jpg"/>
