@@ -5,14 +5,13 @@
             <helmet>
                 <meta charSet="utf-8" />
                 <title>My Title</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-                <meta property="og:title" :content="pageTitle">
-                <meta property="og:description" :content="pageDescription">
-                <meta property="og:image" :content="ogImageUrl">
-                <meta name="twitter:card" content="summary_large_image">
-                <meta name="twitter:title" :content="pageTitle">
-                <meta name="twitter:description" :content="pageDescription">
-                <meta name="twitter:image" :content="ogImageUrl">
+                <link rel="canonical" href="https://new-branch--og-check.netlify.app/#/" />
+                <meta name="description" content="Own Your Personal Data &amp; Digital Identity">
+                <meta property="og:url" content="https://new-branch--og-check.netlify.app/#/">
+                <meta property="og:title" content="My OG">
+                <meta property="og:description" content="Own Your Personal Data &amp; Digital Identity">
+                <meta property="og:type" content="website">
+                <meta property="og:image" content="https://ik.imagekit.io/ikmedia/backlit.jpg">                
             </helmet>
         </div>
     </helmet-provider>
