@@ -1,6 +1,21 @@
 <template>
   <div class="container" align="center"> 
-    
+    <helmet-provider>
+        <div>
+            <helmet>
+                <meta charSet="utf-8" />
+                <title>My Title</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+                <meta property="og:title" :content="pageTitle">
+                <meta property="og:description" :content="pageDescription">
+                <meta property="og:image" :content="ogImageUrl">
+                <meta name="twitter:card" content="summary_large_image">
+                <meta name="twitter:title" :content="pageTitle">
+                <meta name="twitter:description" :content="pageDescription">
+                <meta name="twitter:image" :content="ogImageUrl">
+            </helmet>
+        </div>
+    </helmet-provider>
     <table class="cert">
       
   <tr>
@@ -46,35 +61,22 @@
 
 <script>
 import html2canvas from 'html2canvas';
-
 // import ShareNetwork from "vue-social-sharing"
+import { Helmet,HelmetProvider } from "@jnields/vue-helmet";
 export default {
-  name: "CertifiCate",
-  components:{},
-  metaInfo: {
-      title: 'My Awesome Webapp',
-      // override the parent template and just use the above title only
-      titleTemplate: null,
-      meta: [
-    {
-      property: 'og:title',
-      content: 'My Awesome Webapp - Open Graph Title',
-    },
-    {
-      property: 'og:description',
-      content: 'This is the description for the Open Graph meta tag.',
-    },
-    {
-      property: 'og:image',
-      content: 'https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg',
-    },
-    // Add more OG meta tags as needed
-  ],
-    },
+  name: "HomePage",
+  components:{HelmetProvider, Helmet},
+ 
   data(){
     return{
-      certificatePageUrl:'https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg'
+      certificatePageUrl:'https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg',
+      pageTitle: 'My OG Title',
+      pageDescription: 'My OG description here',
+      ogImageUrl: 'https://ik.imagekit.io/ikmedia/backlit.jpg'
     }
+  },
+  created(){
+    // this.getMetaInfo();
   },
   methods:{
     generateCert() {      

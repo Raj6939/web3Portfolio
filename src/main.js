@@ -1,15 +1,19 @@
-import Vue from 'vue'
-import App from './App.vue'
-import {BootstrapVue, IconsPlugin,} from "bootstrap-vue";
+// import { Helmet } from 'vue-helmet';
+import Vue from 'vue';
+import App from './App.vue';
+import router from "./routes/index";
+import { BootstrapVue, IconsPlugin } from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
-import VueSocialSharing from 'vue-social-sharing'
-import VueMeta from 'vue-meta';
-Vue.config.productionTip = false
+import VueSocialSharing from 'vue-social-sharing';
+
+Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
+// Vue.component('PageHelmet', Helmet);
 Vue.use(VueSocialSharing);
-Vue.use(VueMeta);
+
 new Vue({
+  router,
   render: h => h(App),
-}).$mount('#app')
+}).$mount('#app');

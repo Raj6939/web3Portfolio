@@ -1,18 +1,15 @@
 <template>
   <div id="app">
     <div class="d-flex">
-    <certificate/>
+    <router-view/>
     </div>    
   </div>
 </template>
 
 <script>
-import certificate from './components/certificate.vue'
-
 export default {
   name: 'App',
-  components: {
-    certificate
+  components: {    
   },
 
 }
