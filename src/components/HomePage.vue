@@ -3,12 +3,10 @@
     <helmet-provider>
         <div>
             <helmet>
-                <meta charSet="utf-8" />              
-                <title>Social Share Preview – Check social media link previews</title>
-                <meta name="description" content="Check how the link previews of a website look like on Facebook, Twitter, LinkedIn &amp; Pinterest. Use our ► debugger or install our ► free browser plugin!">
-                <meta property="og:title" content="Social Share Preview – Check social media link previews">
-                <meta property="og:description" content="Check how the link previews of a website look like on Facebook, Twitter, LinkedIn &amp; Pinterest. Use our ► debugger or ► free browser extensions!">
-                <meta property="og:image" content="https://socialsharepreview.com/images/social-share-preview-og.jpg">
+                <meta charSet="utf-8" />                              
+                <meta property="og:title" content="Social Share Preview – Check social media link previews">                
+                <meta name="description" property="og:description" content="This is og description">                
+                <meta name="image" property="og:image" content="https://socialsharepreview.com/images/social-share-preview-og.jpg">
                 <meta name="twitter:card" content="summary_large_image">
                 <meta name="twitter:title" content="Social Share Preview – Check social media link previews">
                 <meta name="twitter:description" content="Check how the link previews of a website look like on Facebook, Twitter, LinkedIn &amp; Pinterest. Use our ► debugger or install our ► free browser plugin!">                
