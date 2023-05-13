@@ -5,14 +5,18 @@
             <helmet>
                 <meta charSet="utf-8" />
                 <title>My new Title</title>
-                <link rel="canonical" href="https://new-branch--og-check.netlify.app/#/" />
-                <meta name="description" property="og:description" content="OG Page Description">                
-                <meta name="image" property="og:image" content="https://ik.imagekit.io/ikmedia/backlit.jpg"/>
-                <meta property="og:url" content="https://new-branch--og-check.netlify.app/#/">
-                <meta property="og:title" content="My OG">
-                <meta property="og:description" content="Own Your Personal Data &amp; Digital Identity">
+                <link rel="canonical" href="https://new-branch--og-check.netlify.app/#/" />                
+                <meta property="og:description" content="Own Your Personal Data &amp; Digital Identity">              
+                <meta property="og:url" content="https://hypersign.id">
+                <meta property="og:title" content="Hypersign">                
                 <meta property="og:type" content="website">
-                <meta property="og:image" content="https://ik.imagekit.io/ikmedia/backlit.jpg">                
+                <meta property="og:image" content="https://static.tildacdn.com/tild6539-3461-4438-b031-373266393834/Frame_333.jpg">
+                <link rel="canonical" href="https://hypersign.id">
+                <meta name="format-detection" content="telephone=no">
+                <meta http-equiv="x-dns-prefetch-control" content="on">
+                <link rel="dns-prefetch" href="https://ws.tildacdn.com">
+                <link rel="dns-prefetch" href="https://static.tildacdn.com">
+                <link rel="shortcut icon" href="https://static.tildacdn.com/tild6464-6463-4136-b535-353636396131/Frame-24-_1_.ico" type="image/x-icon">
             </helmet>
         </div>
     </helmet-provider>
